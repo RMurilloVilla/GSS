@@ -107,7 +107,7 @@ null hypothesis since the p-value is too small. There is clearly a difference be
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
 
-Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE).
+Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE). 
 
 ## Methods
 
