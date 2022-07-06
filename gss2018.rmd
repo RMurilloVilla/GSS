@@ -100,7 +100,8 @@ The voted category has a mean of 15.625 and a median of 15. The did not vote cat
 t.test(EDUC~VOTE16,data=GSSdata)
 ```
 
-
+The t-value is 4.598. The degrees of freedom is 102.27. The p-value 15 0.00001224. Thus, we can reject the
+null hypothesis since the p-value is too small. There is clearly a difference between the two variables.
 
 #  Question 3
 
