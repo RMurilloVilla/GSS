@@ -92,14 +92,9 @@ $H_A$: There is a difference between years of education between those who did or
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
-<<<<<<< HEAD
-## Results
-=======
 There is a Cat vs. Num. Since the difference in years is numerical & if they did or didn't vote is categorical. We will use a box plot, favstats, and a t.test for this question.
 
-##Results
->>>>>>> Question2
-
+## Results
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ### Descriptive Results
@@ -120,7 +115,7 @@ The IOR for the Voted category is much higher than the did not voted. currently,
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ```{r}
-favstats(EDUC~VOTe16,data=GSSdata)
+favstats(EDUC~VOTE16,data=GSSdata)
 ```
 
 The voted category has a mean of 15.625 and a median of 15. The did not vote category has a mean of 13.68 and a median is 13. This clearly states that there is a difference between the two even more. The n value for the voted category is 125. The did not vote category is 50.
@@ -194,4 +189,7 @@ The P-value is 0.000236. Because the P-value is less than 0.05, we reject the nu
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Question 1 ended up with a p-value of 0.0202 so we reject null hypothesis for this question. There is a difference between these two categorical variables. Question 2 ended up with a p-value of 0.00001224 so we reject the null hypothesis for this question. There is a difference between the numerical and categorical variable. Question 3 ended up with a p-value of .000236 so we reject the null hypothesis. There is a difference between the numerical and categorical variable. In conclusion, I was able to reject the null
+hypothesis for all 3 questions & able to fully complete each step towards rejecting the null hypothesis.
 
